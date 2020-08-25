@@ -16,8 +16,11 @@
 </p>
 
 
-8 Puzzle solver is a basic app to perform brute force search coupled with breadth first search algorithm to find solution 
-to a given 8 tile puzzle configuration.
+This is a custom implementation of Visual Odometry package written using Python and Cython from scratch. 
+This package also has the option to utilize GPU with the help of CuPy package. This package is intended 
+for educational purpose only.
+
+
 ## Work in progress
 - [ ] Create Complete skeleton structure for the project.
 - [ ] Add documentation before EOD (Saturday).
