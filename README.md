@@ -37,5 +37,5 @@ Have a bug or a feature request? Search for existing and closed issues, if your 
 
 <p align='center'>
     <a id='thanks'></a>
-    Thank you for visiting our Repo!
+    Thank you for visiting my Repo!
 </p>
