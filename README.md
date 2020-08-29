@@ -22,7 +22,13 @@ for educational purpose only.
 
 
 ## Work in progress
-- [ ] Create Complete skeleton structure for the project.
+- [ ] Create modules and features.
+    - [ ] camera.py
+        - [X] read_camera_model()
+    - [ ] data_preprocessor.py
+    - [ ] handler.py
+    - [ ] visualizer.py
+    - [ ] algorithm.py    
 - [ ] Add documentation before EOD (Saturday).
 - [ ] Design Unit test conditions and requirements.
 - [ ] Implement Docker packaging.
