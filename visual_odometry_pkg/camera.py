@@ -5,7 +5,7 @@ import numpy as np
 class Camera:
     """
 
-
+    A camera object to store the camera model and parameters
 
     """
 
@@ -25,6 +25,7 @@ class Camera:
     def read_camera_model(self, model_dir: str, intrinsic_filename: str = 'intrinsic_parameters.txt',
                           lut_filename: str = 'intrinsic_parameters.txt') -> Tuple[Any, Any, Any, Any, Any, Any]:
         """
+        Reads the camera parameters from text file/ bin
 
         Args:
             lut_filename: string
@@ -63,6 +64,16 @@ class Camera:
         lut = lut.reshape([2, lut.size // 2])
         self.LUT = lut.T
 
+        return self.fx, self.fy, self.cx, self.cy, self.G_camera_image, self.LUT
+
+    def get_camera_model(self) -> Tuple[Any, Any, Any, Any, Any, Any]:
+        """
+        Returns already read parameters
+
+        Returns: Tuple
+            Returns the intrinsic parameters and undistortion lookup table (LUT)
+
+        """
         return self.fx, self.fy, self.cx, self.cy, self.G_camera_image, self.LUT
 
 

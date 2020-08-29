@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="055d9e54-514e-49fa-a882-0bf851d38e70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_odometry_pkg/camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual_odometry_pkg/camera.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +106,7 @@
       <updated>1598453753254</updated>
       <workItem from="1598453754276" duration="3588000" />
       <workItem from="1598636246728" duration="9312000" />
-      <workItem from="1598666808694" duration="607000" />
+      <workItem from="1598666808694" duration="1363000" />
     </task>
     <task id="LOCAL-00001" summary="Add algorithms.py, data_preprocessor.py, handler.py">
       <created>1598479606371</created>
@@ -150,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598666489666</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=".idea">
+      <created>1598667431169</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598667431169</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,10 +177,10 @@
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
     <state x="1696" y="824" width="678" height="336" key="#Notifications/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598666894464" />
-    <state x="1467" y="561" width="1136" height="863" key="CommitChangelistDialog2" timestamp="1598666489597">
+    <state x="1467" y="561" width="1136" height="863" key="CommitChangelistDialog2" timestamp="1598667431091">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
-    <state x="1467" y="561" width="1136" height="863" key="CommitChangelistDialog2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598666489597" />
+    <state x="1467" y="561" width="1136" height="863" key="CommitChangelistDialog2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598667431091" />
     <state x="1795" y="750" key="FileChooserDialogImpl" timestamp="1598479779430">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
@@ -182,17 +189,17 @@
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
     <state x="1566" y="624" width="947" height="737" key="SettingsEditor/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598639032858" />
-    <state x="1635" y="725" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598667401899">
+    <state x="1635" y="725" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598667434911">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
-    <state x="1635" y="725" width="800" height="535" key="Vcs.Push.Dialog.v2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598667401899" />
+    <state x="1635" y="725" width="800" height="535" key="Vcs.Push.Dialog.v2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598667434911" />
     <state x="1799" y="906" width="481" height="180" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598667385519">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
     <state x="1799" y="906" width="481" height="180" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598667385518" />
-    <state x="0" y="786" width="1080" height="1134" key="dock-window-1" timestamp="1598667108515">
+    <state x="0" y="786" width="1080" height="1134" maximized="true" key="dock-window-1" timestamp="1598668088189">
       <screen x="0" y="402" width="1080" height="1518" />
     </state>
-    <state x="0" y="786" width="1080" height="1134" key="dock-window-1/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598667108515" />
+    <state x="0" y="786" width="1080" height="1134" maximized="true" key="dock-window-1/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598668088189" />
   </component>
 </project>
