@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="055d9e54-514e-49fa-a882-0bf851d38e70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visual_odometry_pkg/camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visual_odometry_pkg/visualizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Visual-Odometry-pkg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Visual-Odometry-pkg.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_odometry_pkg/data_preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual_odometry_pkg/data_preprocessor.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Sudharsan &lt;sudharsansci@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="JupyterTrust" id="cd9952dc-248b-430c-a311-74102b51aba8" />
+  <component name="ProjectId" id="1gdoIwlIPSpHWDbbjLny4Vo20qb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projects/VO-rec" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Visual-Odometry-pkg" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="algorithms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Visual-Odometry-pkg" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/visual_odometry_pkg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visual_odometry_pkg/algorithms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.algorithms" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="055d9e54-514e-49fa-a882-0bf851d38e70" name="Default Changelist" comment="" />
+      <created>1598453753254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598453753254</updated>
+      <workItem from="1598453754276" duration="3588000" />
+      <workItem from="1598636246728" duration="8818000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add algorithms.py, data_preprocessor.py, handler.py">
+      <created>1598479606371</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598479606371</updated>
+    </task>
+    <task id="LOCAL-00002" summary="base content algorithms.py, data_preprocessor.py, handler.py">
+      <created>1598492611485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598492611485</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add algorithms.py, data_preprocessor.py, handler.py" />
+    <MESSAGE value="base content algorithms.py, data_preprocessor.py, handler.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="base content algorithms.py, data_preprocessor.py, handler.py" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1467" y="561" width="1136" height="863" key="CommitChangelistDialog2" timestamp="1598492611440">
+      <screen x="1080" y="376" width="1920" height="1200" />
+    </state>
+    <state x="1467" y="561" width="1136" height="863" key="CommitChangelistDialog2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598492611440" />
+    <state x="1795" y="750" key="FileChooserDialogImpl" timestamp="1598479779430">
+      <screen x="1080" y="376" width="1920" height="1200" />
+    </state>
+    <state x="1795" y="750" key="FileChooserDialogImpl/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598479779430" />
+    <state x="1566" y="624" width="947" height="737" key="SettingsEditor" timestamp="1598639032858">
+      <screen x="1080" y="376" width="1920" height="1200" />
+    </state>
+    <state x="1566" y="624" width="947" height="737" key="SettingsEditor/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598639032858" />
+    <state x="1635" y="725" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598492614827">
+      <screen x="1080" y="376" width="1920" height="1200" />
+    </state>
+    <state x="1635" y="725" width="800" height="535" key="Vcs.Push.Dialog.v2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598492614827" />
+    <state x="0" y="786" width="1080" height="1134" maximized="true" key="dock-window-1" timestamp="1598652043112">
+      <screen x="0" y="402" width="1080" height="1518" />
+    </state>
+    <state x="0" y="786" width="1080" height="1134" maximized="true" key="dock-window-1/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598652043112" />
+  </component>
+</project>
