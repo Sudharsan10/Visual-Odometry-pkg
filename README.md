@@ -23,7 +23,7 @@ for educational purpose only.
 
 ## Work in progress
 - [ ] Create modules and features.
-    - [ ] camera.py
+    - [X] camera.py
         - [X] read_camera_model()
     - [ ] data_preprocessor.py
     - [ ] handler.py
