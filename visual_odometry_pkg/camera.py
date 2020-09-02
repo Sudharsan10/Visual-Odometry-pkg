@@ -1,3 +1,4 @@
+import os
 from typing import Any, Tuple
 import numpy as np
 
@@ -23,7 +24,7 @@ class Camera:
         self.G_camera_image = None
 
     def read_camera_model(self, model_dir: str, intrinsic_filename: str = 'intrinsic_parameters.txt',
-                          lut_filename: str = 'intrinsic_parameters.txt') -> Tuple[Any, Any, Any, Any, Any, Any]:
+                          lut_filename: str = 'lut.bin') -> Tuple[Any, Any, Any, Any, Any, Any]:
         """
         Reads the camera parameters from text file/ bin
 
@@ -80,3 +81,14 @@ class Camera:
 if __name__ == '__main__':
     msg = 'Camera Module of Visual odometry package.'
     print(f'{msg}')
+
+    # Test
+    camera = Camera()
+    camera.read_camera_model('/home/codezen/temp/')
+    fx, fy, cx, cy, G_camera_image, LUT = camera.get_camera_model()
+    print('fx: ', fx)
+    print('fy: ', fy)
+    print('cx: ', cx)
+    print('cy: ', cy)
+    print('Gcam: ', G_camera_image)
+    print('LUT: ', LUT)
