@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="055d9e54-514e-49fa-a882-0bf851d38e70" name="Default Changelist" comment="Feat: add frames_to_video() &#10;&#10;Feat:&#10;    - supports .mjpg, .divx, .xvid">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual_odometry_pkg/camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual_odometry_pkg/camera.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visual_odometry_pkg/data_preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual_odometry_pkg/data_preprocessor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visual_odometry_pkg/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual_odometry_pkg/handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visual_odometry_pkg/visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual_odometry_pkg/visualizer.py" afterDir="false" />
@@ -48,7 +47,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projects/VO-rec" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.camera">
+  <component name="RunManager" selected="Python.handler">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Visual-Odometry-pkg" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,8 +111,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="handler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Visual-Odometry-pkg" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/visual_odometry_pkg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visual_odometry_pkg/handler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.handler" />
         <item itemvalue="Python.camera" />
         <item itemvalue="Python.algorithms" />
       </list>
@@ -134,7 +153,7 @@
       <workItem from="1598806570539" duration="10538000" />
       <workItem from="1598907168163" duration="2625000" />
       <workItem from="1598980473142" duration="1087000" />
-      <workItem from="1599040022984" duration="1464000" />
+      <workItem from="1599040022984" duration="3165000" />
     </task>
     <task id="LOCAL-00001" summary="Add algorithms.py, data_preprocessor.py, handler.py">
       <created>1598479606371</created>
@@ -199,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598831147561</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update: Camera.py - simple test call check&#10;&#10;Status:&#10;    - Passed">
+      <created>1599041571076</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599041571076</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,17 +240,18 @@
     <MESSAGE value=".idea" />
     <MESSAGE value="Feat: add get_camera_model() in Camera class" />
     <MESSAGE value="Feat: add frames_to_video() &#10;&#10;Feat:&#10;    - supports .mjpg, .divx, .xvid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: add frames_to_video() &#10;&#10;Feat:&#10;    - supports .mjpg, .divx, .xvid" />
+    <MESSAGE value="Update: Camera.py - simple test call check&#10;&#10;Status:&#10;    - Passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: Camera.py - simple test call check&#10;&#10;Status:&#10;    - Passed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1696" y="824" width="678" height="336" key="#Notifications" timestamp="1598666894464">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
     <state x="1696" y="824" width="678" height="336" key="#Notifications/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598666894464" />
-    <state x="1426" y="534" width="1136" height="863" key="CommitChangelistDialog2" timestamp="1599040334143">
+    <state x="1426" y="534" width="1136" height="863" key="CommitChangelistDialog2" timestamp="1599041570976">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
-    <state x="1426" y="534" width="1136" height="863" key="CommitChangelistDialog2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599040334143" />
+    <state x="1426" y="534" width="1136" height="863" key="CommitChangelistDialog2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599041570976" />
     <state x="1795" y="750" key="FileChooserDialogImpl" timestamp="1598479779430">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
@@ -265,10 +292,10 @@
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
     <state x="1566" y="624" width="947" height="737" key="SettingsEditor/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598639032858" />
-    <state x="1635" y="725" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598831149267">
+    <state x="1635" y="725" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599041572569">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
-    <state x="1635" y="725" width="800" height="535" key="Vcs.Push.Dialog.v2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598831149267" />
+    <state x="1635" y="725" width="800" height="535" key="Vcs.Push.Dialog.v2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599041572569" />
     <state x="1799" y="906" width="481" height="180" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598831066120">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
