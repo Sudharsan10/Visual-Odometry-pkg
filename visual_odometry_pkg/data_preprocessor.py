@@ -32,7 +32,7 @@ class DataPreprocessor:
         Returns: None
         """
 
-        files = glob.glob(source + '*.PNG')
+        files = glob.glob(source + '*.png')
 
         frames_array = []
         for x in files:
@@ -40,13 +40,13 @@ class DataPreprocessor:
             frames_array.append(keyframes)
 
         height, width, layers = frames_array[0].shape
-        size = (height, width)
-        if file_format == 'DIVX':
-            video_out = cv.VideoWriter(destination, cv.VideoWriter_fourcc(*'DIVX'), fps, size)
-        elif file_format == 'XVID':
-            video_out = cv.VideoWriter(destination, cv.VideoWriter_fourcc(*'XVID'), fps, size)
-        elif file_format == 'MJPG':
-            video_out = cv.VideoWriter(destination, cv.VideoWriter_fourcc(*'MJPG'), fps, size)
+        size = (width, height)
+        if file_format == 'DIVX' or file_format == 'divx':
+            video_out = cv.VideoWriter(destination+'out.avi', cv.VideoWriter_fourcc(*'DIVX'), fps, size)
+        elif file_format == 'X264' or file_format == 'x264' or file_format == 'mkv':
+            video_out = cv.VideoWriter(destination+'out.mkv', cv.VideoWriter_fourcc(*'X264'), fps, size)
+        elif file_format == 'MJPG' or file_format == 'mjpg' or file_format == 'mp4':
+            video_out = cv.VideoWriter(destination+'out.mp4', cv.VideoWriter_fourcc(*'MJPG'), fps, size)
         else:
             print("Video Format provided not supported.")
             return
