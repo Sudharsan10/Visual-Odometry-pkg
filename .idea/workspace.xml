@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="055d9e54-514e-49fa-a882-0bf851d38e70" name="Default Changelist" comment="Feat: add frames_to_video() &#10;&#10;Feat:&#10;    - supports .mjpg, .divx, .xvid">
+      <change afterPath="$PROJECT_DIR$/test_data/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_data/intrinsic_parameters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_data/lut.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_algorithms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_data_preprocessor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_visualize.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual_odometry_pkg/data_preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual_odometry_pkg/data_preprocessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_odometry_pkg/camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual_odometry_pkg/camera.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visual_odometry_pkg/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual_odometry_pkg/handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visual_odometry_pkg/visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual_odometry_pkg/visualizer.py" afterDir="false" />
     </list>
@@ -44,10 +53,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projects/VO-rec" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.handler">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_camera.TestCamera">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Visual-Odometry-pkg" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,32 +84,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="algorithms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="camera" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Visual-Odometry-pkg" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/visual_odometry_pkg" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visual_odometry_pkg/algorithms.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="camera" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Visual-Odometry-pkg" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/visual_odometry_pkg" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -115,6 +110,9 @@
       <module name="Visual-Odometry-pkg" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/visual_odometry_pkg" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -130,11 +128,64 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_camera.TestCamera" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Visual-Odometry-pkg" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_camera.TestCamera&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_camera.TestCamera.test_get_camera_model" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Visual-Odometry-pkg" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_camera.TestCamera.test_get_camera_model&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_camera.TestCamera.test_read_camera_model" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Visual-Odometry-pkg" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_camera.TestCamera.test_read_camera_model&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_camera.TestCamera" />
+        <item itemvalue="Python tests.pytest for test_camera.TestCamera.test_get_camera_model" />
+        <item itemvalue="Python tests.pytest for test_camera.TestCamera.test_read_camera_model" />
         <item itemvalue="Python.handler" />
         <item itemvalue="Python.camera" />
-        <item itemvalue="Python.algorithms" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +204,9 @@
       <workItem from="1598806570539" duration="10538000" />
       <workItem from="1598907168163" duration="2625000" />
       <workItem from="1598980473142" duration="1087000" />
-      <workItem from="1599040022984" duration="3165000" />
+      <workItem from="1599040022984" duration="3546000" />
+      <workItem from="1599043861383" duration="175000" />
+      <workItem from="1599045521796" duration="9430000" />
     </task>
     <task id="LOCAL-00001" summary="Add algorithms.py, data_preprocessor.py, handler.py">
       <created>1598479606371</created>
@@ -225,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599041571076</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Feat: data_preprocesor.py - features update&#10;&#10;Feat:&#10;    - color conversion&#10;    - undistort image">
+      <created>1599043261448</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599043261448</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,71 +301,75 @@
     <MESSAGE value="Feat: add get_camera_model() in Camera class" />
     <MESSAGE value="Feat: add frames_to_video() &#10;&#10;Feat:&#10;    - supports .mjpg, .divx, .xvid" />
     <MESSAGE value="Update: Camera.py - simple test call check&#10;&#10;Status:&#10;    - Passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: Camera.py - simple test call check&#10;&#10;Status:&#10;    - Passed" />
+    <MESSAGE value="Feat: data_preprocesor.py - features update&#10;&#10;Feat:&#10;    - color conversion&#10;    - undistort image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: data_preprocesor.py - features update&#10;&#10;Feat:&#10;    - color conversion&#10;    - undistort image" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1696" y="824" width="678" height="336" key="#Notifications" timestamp="1598666894464">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
     <state x="1696" y="824" width="678" height="336" key="#Notifications/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598666894464" />
-    <state x="1426" y="534" width="1136" height="863" key="CommitChangelistDialog2" timestamp="1599041570976">
+    <state x="1426" y="534" width="1136" height="863" key="CommitChangelistDialog2" timestamp="1599043261400">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
-    <state x="1426" y="534" width="1136" height="863" key="CommitChangelistDialog2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599041570976" />
-    <state x="1795" y="750" key="FileChooserDialogImpl" timestamp="1598479779430">
+    <state x="1426" y="534" width="1136" height="863" key="CommitChangelistDialog2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599043261400" />
+    <state x="1795" y="750" key="FileChooserDialogImpl" timestamp="1599044033067">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
-    <state x="1795" y="750" key="FileChooserDialogImpl/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598479779430" />
-    <state width="1878" height="390" key="GridCell.Tab.0.bottom" timestamp="1599041435033">
+    <state x="1795" y="750" key="FileChooserDialogImpl/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599044033067" />
+    <state width="1878" height="207" key="GridCell.Tab.0.bottom" timestamp="1599063740616">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
-    <state width="1878" height="390" key="GridCell.Tab.0.bottom/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599041435033" />
-    <state width="1878" height="390" key="GridCell.Tab.0.center" timestamp="1599041435033">
+    <state width="1878" height="207" key="GridCell.Tab.0.bottom/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599063740616" />
+    <state width="1878" height="207" key="GridCell.Tab.0.center" timestamp="1599063740616">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
-    <state width="1878" height="390" key="GridCell.Tab.0.center/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599041435033" />
-    <state width="1878" height="390" key="GridCell.Tab.0.left" timestamp="1599041435032">
+    <state width="1878" height="207" key="GridCell.Tab.0.center/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599063740616" />
+    <state width="1878" height="207" key="GridCell.Tab.0.left" timestamp="1599063740616">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
-    <state width="1878" height="390" key="GridCell.Tab.0.left/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599041435032" />
-    <state width="1878" height="390" key="GridCell.Tab.0.right" timestamp="1599041435033">
+    <state width="1878" height="207" key="GridCell.Tab.0.left/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599063740616" />
+    <state width="1878" height="207" key="GridCell.Tab.0.right" timestamp="1599063740616">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
-    <state width="1878" height="390" key="GridCell.Tab.0.right/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599041435033" />
-    <state width="1878" height="390" key="GridCell.Tab.1.bottom" timestamp="1599041435033">
+    <state width="1878" height="207" key="GridCell.Tab.0.right/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599063740616" />
+    <state width="1878" height="390" key="GridCell.Tab.1.bottom" timestamp="1599043570785">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
-    <state width="1878" height="390" key="GridCell.Tab.1.bottom/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599041435033" />
-    <state width="1878" height="390" key="GridCell.Tab.1.center" timestamp="1599041435033">
+    <state width="1878" height="390" key="GridCell.Tab.1.bottom/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599043570785" />
+    <state width="1878" height="390" key="GridCell.Tab.1.center" timestamp="1599043570785">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
-    <state width="1878" height="390" key="GridCell.Tab.1.center/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599041435033" />
-    <state width="1878" height="390" key="GridCell.Tab.1.left" timestamp="1599041435033">
+    <state width="1878" height="390" key="GridCell.Tab.1.center/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599043570785" />
+    <state width="1878" height="390" key="GridCell.Tab.1.left" timestamp="1599043570785">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
-    <state width="1878" height="390" key="GridCell.Tab.1.left/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599041435033" />
-    <state width="1878" height="390" key="GridCell.Tab.1.right" timestamp="1599041435033">
+    <state width="1878" height="390" key="GridCell.Tab.1.left/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599043570785" />
+    <state width="1878" height="390" key="GridCell.Tab.1.right" timestamp="1599043570785">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
-    <state width="1878" height="390" key="GridCell.Tab.1.right/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599041435033" />
+    <state width="1878" height="390" key="GridCell.Tab.1.right/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599043570785" />
     <state x="1566" y="624" width="947" height="737" key="SettingsEditor" timestamp="1598639032858">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
     <state x="1566" y="624" width="947" height="737" key="SettingsEditor/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598639032858" />
-    <state x="1635" y="725" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599041572569">
+    <state x="1635" y="725" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599043263036">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
-    <state x="1635" y="725" width="800" height="535" key="Vcs.Push.Dialog.v2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599041572569" />
+    <state x="1635" y="725" width="800" height="535" key="Vcs.Push.Dialog.v2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599043263036" />
     <state x="1799" y="906" width="481" height="180" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598831066120">
       <screen x="1080" y="376" width="1920" height="1200" />
     </state>
     <state x="1799" y="906" width="481" height="180" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1598831066120" />
-    <state x="0" y="772" width="1060" height="1148" maximized="true" key="dock-window-1" timestamp="1599040253712">
+    <state x="0" y="765" width="1050" height="1155" maximized="true" key="dock-window-1" timestamp="1599050748822">
       <screen x="0" y="402" width="1080" height="1518" />
     </state>
-    <state x="0" y="772" width="1060" height="1148" maximized="true" key="dock-window-1/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599040253712" />
+    <state x="0" y="765" width="1050" height="1155" maximized="true" key="dock-window-1/1080.376.1920.1200/0.402.1080.1518@1080.376.1920.1200" timestamp="1599050748822" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Visual_Odometry_pkg$pytest_for_test_camera_TestCamera_test_read_camera_model.coverage" NAME="pytest for test_camera.TestCamera.test_read_camera_model Coverage Results" MODIFIED="1599063426179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Visual_Odometry_pkg$pytest_for_test_camera_TestCamera.coverage" NAME="pytest for test_camera.TestCamera Coverage Results" MODIFIED="1599063723399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Visual_Odometry_pkg$camera.coverage" NAME="camera Coverage Results" MODIFIED="1599041338864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visual_odometry_pkg" />
+    <SUITE FILE_PATH="coverage/Visual_Odometry_pkg$pytest_for_test_camera_TestCamera_test_get_camera_model.coverage" NAME="pytest for test_camera.TestCamera.test_get_camera_model Coverage Results" MODIFIED="1599063717371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>

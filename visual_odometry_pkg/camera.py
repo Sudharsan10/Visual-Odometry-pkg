@@ -84,7 +84,7 @@ if __name__ == '__main__':
 
     # Test
     camera = Camera()
-    camera.read_camera_model('/home/codezen/temp/')
+    camera.read_camera_model('/home/codezen/test_data/')
     fx, fy, cx, cy, G_camera_image, LUT = camera.get_camera_model()
     print('fx: ', fx)
     print('fy: ', fy)
