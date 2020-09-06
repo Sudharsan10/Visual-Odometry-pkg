@@ -1,0 +1,12 @@
+
+# -------------------------------- #
+# -----> *** New Record *** <----- #
+# -------------------------------- #
+2020-09-06 04:22:48,778 : DEBUG : visual_odometry_pkg.data_preprocessor :-> DataPreprocessor.frames_to_video() invoked..!
+2020-09-06 04:22:48,786 : DEBUG : visual_odometry_pkg.data_preprocessor :-> Step 01: Completed Successfully..!
+2020-09-06 04:22:48,787 : DEBUG : visual_odometry_pkg.data_preprocessor :-> Step 02: Completed Successfully..!
+2020-09-06 04:22:48,801 : DEBUG : visual_odometry_pkg.data_preprocessor :-> Step 03: Completed Successfully..!
+2020-09-06 04:22:48,859 : DEBUG : visual_odometry_pkg.data_preprocessor :-> Step 04: Completed Successfully..!
+2020-09-06 04:22:48,859 : DEBUG : visual_odometry_pkg.data_preprocessor :-> Exiting DataPreprocessor.frames_to_video()..!
+2020-09-06 04:22:48,873 : DEBUG : visual_odometry_pkg.data_preprocessor :-> DataPreprocessor.undistort_image() invoked..!
+2020-09-06 04:22:48,995 : DEBUG : visual_odometry_pkg.data_preprocessor :-> Exiting undistort_image()..!

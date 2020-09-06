@@ -1,0 +1,21 @@
+
+# -------------------------------- #
+# -----> *** New Record *** <----- #
+# -------------------------------- #
+
+# -------------------------------- #
+# -----> *** New Record *** <----- #
+# -------------------------------- #
+2020-09-06 05:03:17,100 : DEBUG : visual_odometry_pkg.camera :-> Camera.get_camera_model() invoked ..!
+2020-09-06 05:03:17,101 : DEBUG : visual_odometry_pkg.camera :-> Camera.read_camera_model() invoked ..!
+2020-09-06 05:03:17,107 : DEBUG : visual_odometry_pkg.camera :-> Exiting read_camera_model()..!
+
+# -------------------------------- #
+# -----> *** New Record *** <----- #
+# -------------------------------- #
+2020-09-06 05:06:51,291 : DEBUG : visual_odometry_pkg.camera :-> Camera.get_camera_model() invoked ..!
+2020-09-06 05:06:51,292 : DEBUG : visual_odometry_pkg.camera :-> Camera.read_camera_model() invoked ..!
+2020-09-06 05:06:51,293 : DEBUG : visual_odometry_pkg.camera :-> Stage 01: Completed Successfully..!
+2020-09-06 05:06:51,293 : DEBUG : visual_odometry_pkg.camera :-> Stage 02: Completed Successfully..!
+2020-09-06 05:06:51,298 : DEBUG : visual_odometry_pkg.camera :-> Stage 03: Completed Successfully..!
+2020-09-06 05:06:51,298 : DEBUG : visual_odometry_pkg.camera :-> Exiting read_camera_model()..!

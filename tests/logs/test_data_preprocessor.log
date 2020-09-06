@@ -1,0 +1,10 @@
+
+# -------------------------------- #
+# -----> *** New Record *** <----- #
+# -------------------------------- #
+2020-09-06 04:22:48,719 : INFO : tests.test_data_preprocessor :-> convert_bayer_bg2bgr() passed!
+2020-09-06 04:22:48,735 : INFO : tests.test_data_preprocessor :-> convert_bayer_gb2bgr() passed!
+2020-09-06 04:22:48,751 : INFO : tests.test_data_preprocessor :-> convert_bayer_gr2bgr() passed!
+2020-09-06 04:22:48,764 : INFO : tests.test_data_preprocessor :-> convert_bayer_rg2bgr() passed!
+2020-09-06 04:22:48,859 : INFO : tests.test_data_preprocessor :-> frames_to_video() passed!
+2020-09-06 04:22:48,996 : INFO : tests.test_data_preprocessor :-> undistort_image() passed!

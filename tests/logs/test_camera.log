@@ -1,0 +1,18 @@
+
+# -------------------------------- #
+# -----> *** New Record *** <----- #
+# -------------------------------- #
+2020-09-06 04:57:20,498 : INFO : tests.test_camera :-> get_camera_model() passed
+2020-09-06 04:57:20,507 : INFO : tests.test_camera :-> read_camera_model() passed
+
+# -------------------------------- #
+# -----> *** New Record *** <----- #
+# -------------------------------- #
+2020-09-06 05:03:17,100 : INFO : tests.test_camera :-> get_camera_model() passed
+2020-09-06 05:03:17,109 : INFO : tests.test_camera :-> read_camera_model() passed
+
+# -------------------------------- #
+# -----> *** New Record *** <----- #
+# -------------------------------- #
+2020-09-06 05:06:51,291 : INFO : tests.test_camera :-> get_camera_model() passed
+2020-09-06 05:06:51,300 : INFO : tests.test_camera :-> read_camera_model() passed
